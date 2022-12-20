@@ -1,0 +1,22 @@
+/* Se puede acortar todo con el shorthand border: width style color */
+h1  {
+    border-width: thick;    
+    border-style: dotted ;
+    border-width: 4px;
+    border-color: gold;
+}
+h2  {
+    border-width: 20px;
+    border-style: outset  ;
+    border-color: red;  
+}
+p  {
+    border-width: 3px;  
+    border-style: dashed ;  
+    border-color: blue;
+}
+ul  {
+    border-width: thin;
+    border-style: solid ;  
+    border-color: orange;  
+}

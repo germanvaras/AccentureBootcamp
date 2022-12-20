@@ -1,0 +1,78 @@
+﻿* {
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+.headerContainer{
+    display:flex;
+    
+}
+
+.banner {
+    width: 500px;
+    height:250px;
+    background-color:blanchedalmond;
+}
+.sectionLogo{
+    background-color:coral;
+    width:250px
+}
+.sectionLogin {
+    background-color: burlywood;
+    width: 250px;
+}
+.sectionLogo, .sectionLogin {
+    height: 125px;
+}
+.designContainer{
+    display:flex;
+    flex-direction:column;
+}
+.mainContainer{
+    display:flex;
+    height:400px
+}
+nav {
+    height: 50px;
+    background-color: darksalmon;
+    display: flex;
+    justify-content: end;
+    width: 750px;
+    gap: 10px;
+}
+main{
+    width:500px;
+    background-color:antiquewhite
+}
+aside{
+    width:250px;
+    background-color:lightsalmon;
+}
+table{
+    border: 2px solid black;
+}
+td{
+    text-align:center;
+}
+footer{
+    height: 50px;
+    background-color:bisque;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+
+}

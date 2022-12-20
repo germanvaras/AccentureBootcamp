@@ -1,0 +1,53 @@
+
+.body_artico{
+    background-color: rgba(255, 255, 138, 0.899) ;
+}
+.container_exploracion {
+    border: 1px solid #ce0000;
+    padding: 20px;
+}
+.container_artico{
+    width: 800px;
+}
+.titulo_artico{
+    border: 10px outset #ce0000;
+    background-color: rgb(225, 225, 225);
+    color: #263cff;
+    padding: 20px;
+}
+.titulo_exploracion {
+    color: #ce0000;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px 15px;
+}
+.contenido_artico{
+    color: #00091b;
+}
+.contenido_exploracion,
+.resaltado_exploracion {
+    color: #263cff;
+}
+
+.resaltado_exploracion {
+    background-color: rgba(255, 255, 162, 0.876);
+}
+.resaltado_artico{
+    font-size: 30px;
+    font-weight: 700;
+}
+.subrayado{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.bibliografia_exploracion {
+    color: #015a01;
+}
+.negrita_artico{
+    font-weight: 700;
+    font-size: 18px;
+}
+.alDerecha_artico{
+    text-align:right;
+    font-style: italic;
+}

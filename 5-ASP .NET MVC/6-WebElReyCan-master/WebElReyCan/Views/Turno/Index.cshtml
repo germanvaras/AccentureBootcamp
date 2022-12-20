@@ -1,0 +1,39 @@
+﻿
+@model IEnumerable<WebElReyCan.Models.Turno>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@Html.ActionLink("Agregar un Turno", "Create", "Turno")
+@Html.ActionLink("Turnos de Hoy", "IndexToday", "Turno")
+<a asp></a>
+<table>
+    <tr>
+        <th>@Html.DisplayNameFor(m => m.TurnoId)</th>
+        <th>@Html.DisplayNameFor(m => m.NombreMascota)</th>
+        <th>@Html.DisplayNameFor(m => m.NombreDueño)</th>
+        <th>@Html.DisplayNameFor(m => m.Edad)</th>
+        <th>@Html.DisplayNameFor(m => m.Raza)</th>
+        <th>@Html.DisplayNameFor(m => m.FechaIngreso)</th>
+        <th>@Html.DisplayNameFor(m => m.Celular)</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(m => item.TurnoId)</td>
+            <td>@Html.DisplayFor(m => item.NombreMascota)</td>
+            <td>@Html.DisplayFor(m => item.NombreDueño)</td>
+            <td>@Html.DisplayFor(m => item.Edad)</td>
+            <td>@Html.DisplayFor(m => item.Raza)</td>
+            <td>@Html.DisplayFor(m => item.FechaIngreso)</td>
+            <th>@Html.DisplayFor(m => item.Celular)</th>
+
+            <td>@Html.ActionLink("Eliminar Turno", "Delete", new { id = item.TurnoId })</td>
+            <td>@Html.ActionLink("Editar", "Edit", new { id = item.TurnoId })</td>
+        </tr>
+    }
+
+</table>
+

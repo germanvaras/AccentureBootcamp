@@ -1,0 +1,53 @@
+@font-face {
+    src: url(../fuentes/BodoniFLF-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
+    font-family: fuenteTexto;
+}
+
+html {
+    font-size: 62.5%; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+}
+
+
+header h1 {
+    font-weight: 300;
+    font-size: 4.2rem;
+}
+
+h1 span {
+    font-family: fuenteTexto;
+    font-style: italic;
+    font-weight: 700;
+}
+
+
+h2 {
+    font-family: fuenteTexto;
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-family: fuenteTexto;
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p, a, li {
+    font-size: 1.6rem;
+}

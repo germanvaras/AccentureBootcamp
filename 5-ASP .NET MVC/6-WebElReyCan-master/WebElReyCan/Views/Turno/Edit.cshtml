@@ -1,0 +1,47 @@
+﻿@model WebElReyCan.Models.Turno
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h1>Nuevo Turno</h1>
+@using (Html.BeginForm("Edit", "Turno", FormMethod.Post))
+{
+    <div class="group-form">
+        @Html.LabelFor(model => model.NombreMascota)
+        @Html.EditorFor(model => model.NombreMascota)
+        @Html.ValidationMessageFor(model => model.NombreMascota)
+    </div>
+
+    <div class="group-form">
+        @Html.LabelFor(model => model.NombreDueño)
+        @Html.EditorFor(model => model.NombreDueño)
+        @Html.ValidationMessageFor(model => model.NombreDueño)
+    </div>
+
+    <div class="group-form">
+        @Html.LabelFor(model => model.Raza)
+        @Html.EditorFor(model => model.Raza)
+        @Html.ValidationMessageFor(model => model.Raza)
+    </div>
+    <div class="group-form">
+        @Html.LabelFor(model => model.Edad)
+        @Html.EditorFor(model => model.Edad)
+        @Html.ValidationMessageFor(model => model.Edad)
+    </div>
+    <div class="group-form">
+        @Html.LabelFor(model => model.FechaIngreso)
+        @Html.EditorFor(model => model.FechaIngreso)
+        @Html.ValidationMessageFor(model => model.FechaIngreso)
+    </div class="group-form">
+    <div class="group-form">
+        @Html.LabelFor(model => model.Celular)
+        @Html.EditorFor(model => model.Celular)
+        @Html.ValidationMessageFor(model => model.Celular)
+    </div>
+
+
+
+    <input type="Submit" value="Editar" class="button-create" />
+
+    @Html.ActionLink("Volver al Inicio", "Index", "Auto")
+}

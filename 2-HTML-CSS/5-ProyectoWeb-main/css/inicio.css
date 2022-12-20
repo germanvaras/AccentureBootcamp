@@ -1,0 +1,18 @@
+.mifavorito {
+    width: 30%;
+    margin: 20px 1%;
+    float: left;
+    background-color: aqua
+}
+.mifavorito p {
+    margin: 10px 60px;
+}
+#enlaces {
+    background-color: yellow;
+    width: 90%;
+    border: 5px double red;
+}
+.vacio {
+    clear: both;
+}
+

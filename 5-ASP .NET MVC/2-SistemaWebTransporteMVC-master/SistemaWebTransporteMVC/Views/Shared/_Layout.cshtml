@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            Header
+        </header>
+        <section>
+            ADS
+        </section>
+    </div>
+    <div class="container article-container">
+        <nav>
+            <ul>
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home");
+</li>
+                <li>
+                    @Html.ActionLink("Cargar un nuevo Auto", "Create", "Auto")
+                </li>
+                <li>
+                    @Html.ActionLink("Ver lista de autos", "Index", "Auto")
+                </li>
+            </ul>
+        </nav>
+        <div class="mainContainer">
+            <article id="content">
+                @RenderBody()
+            </article>
+            <footer>
+                Footer
+            </footer>
+        </div>
+    </div>
+   
+</body>
+</html>

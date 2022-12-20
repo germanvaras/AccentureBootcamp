@@ -1,0 +1,33 @@
+body{
+  background-color: #CFC
+}
+h1,h2{
+    font-family: Verdana, Calibri, sans-serif;
+}
+h1{
+    color:  #F00;
+    font-size: 32px;
+}
+h2{
+    color:  #A00;
+    font-size: 24px;
+}
+.datosLibros{
+    color: #060;
+    font-size: 20px;
+}
+.singular{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.resaltado{
+    background-color:  #000;
+    color: #fff;
+    font-style: italic;
+}
+p, li{
+    color: #00F;
+    font-family:Georgia, Cambria, serif;
+    font-size: 16px;
+}

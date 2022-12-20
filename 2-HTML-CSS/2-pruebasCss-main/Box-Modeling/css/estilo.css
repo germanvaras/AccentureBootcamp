@@ -1,0 +1,79 @@
+.ej1 {
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+}
+
+.ej2 {
+    border: 10px solid #3EC483;
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* ejemplo3 */
+.d1 {
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+}
+
+.d2 {
+    border: 10px solid #3EC483;
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.ej5 {
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+    padding: 20px 50px;
+    margin: 40px 30px;
+}
+
+.ej6 {
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+    padding: 20px 50px 60px 90px;
+    margin: 40px 30px 70px 80px;
+}
+
+.ej7 {
+    background: #5DEAA8;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    border: 10px solid #43B17D;
+    margin: 60px;
+    box-sizing: content-box;
+
+}
+
+.ej8 {
+    background: #5DEAA8;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    border: 10px solid #43B17D;
+    margin: 60px;
+    box-sizing: padding-box;
+
+}
+
+.ej9 {
+    background: #5DEAA8;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    border: 10px solid #43B17D;
+    margin: 60px;
+    box-sizing: border-box;
+
+}
